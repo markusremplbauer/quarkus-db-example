@@ -6,6 +6,10 @@ on:
       tags:
         description: 'Tags' 
         required: true
+        
+permissions:
+  packages: write
+  
 
 jobs:
   build_backend:
