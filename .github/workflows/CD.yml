@@ -14,7 +14,7 @@ jobs:
     permissions:
       packages: write
     env:
-      IMAGE_NAME: backend
+      IMAGE_NAME: auction-backend
     defaults:
       run:
         working-directory: ./backend
